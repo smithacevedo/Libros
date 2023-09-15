@@ -12,7 +12,7 @@ public class Main {
 
         System.out.print("Ingrese el precio del libro: $");
         double precio = input.nextDouble();
-        input.nextLine();  // Consumir la nueva línea pendiente
+        input.nextLine();
 
         System.out.println("¿Qué tipo de libro desea registrar?");
         System.out.println("1. Libro de Texto");
@@ -20,7 +20,7 @@ public class Main {
         System.out.println("3. Novela");
         System.out.print("Elija una opción (1/2/3): ");
         int opcion = input.nextInt();
-        input.nextLine();  // Consumir la nueva línea pendiente
+        input.nextLine();
 
         Libro libro = null;
 
