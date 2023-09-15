@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Bienvenido al sistema de registro de libros.");
         
         System.out.print("Ingrese el título del libro: ");
         String titulo = input.nextLine();
