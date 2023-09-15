@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println("¿Qué tipo de libro desea registrar?");
         System.out.println("1. Libro de Texto");
-        System.out.println("2. Libro de Texto de la IUAC");
+        System.out.println("2. Libro de Texto de la UNIAJC");
         System.out.println("3. Novela");
         System.out.print("Elija una opción (1/2/3): ");
         int opcion = input.nextInt();
